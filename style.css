@@ -1,0 +1,23 @@
+body{
+    background-color: blueviolet;
+    
+}
+input{
+    width: 8.4%;
+    height: 75%;
+    
+}
+.clear{
+    width: 26.2%;
+    height: 5%;
+    background-color: red;
+    color: black;
+}
+
+.ans{
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.taster{
+    margin-left: 40%;
+}
