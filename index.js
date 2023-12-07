@@ -1,6 +1,16 @@
 var btn= document.getElementById("btn")
-var ans=document.getElementById("ans")
+var opr=document.getElementById("opr")
+const ans=document.getElementById("equal").addEventListener("click", calculate());
 
-function showtext(){
-    ans.innerHTML=btn.value;
+function calculate(){
+if(opr==="+"){
+        ans=btn+btn;
+}elseif(opr==="-"){
+        ans=btn-btn;
+}elseif(opr==="/"){
+        ans=btn/btn;
+}elseif(opr==="*"){
+        ans=btn*btn;
+    }
+    
 }
